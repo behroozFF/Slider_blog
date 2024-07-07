@@ -1,0 +1,27 @@
+.wraper-logo{
+    width: 150px;
+    height: 50%;
+    background: #000;
+    opacity: 0.8;
+
+}
+
+
+.wraper-logo .logo{
+
+    display: flex; /* این باید همیشه باشه  */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* این برای اینکه بخوا اجزا رو عمودی وسط قرار بدی */
+    /* اگر بخواهی اجزا مرکز باشند باید در دربرگیرنده بزاری */
+    /* margin: 20% auto; */
+    /* margin: 20% auto; */
+}
+
+.logo li a i{    
+    font-size: 2rem;
+    color: #fff;
+    height: 4rem;
+    width: 4rem;      
+}

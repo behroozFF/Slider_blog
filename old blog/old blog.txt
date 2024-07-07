@@ -1,0 +1,114 @@
+<div class="container-blog">
+       <div class="pages">
+
+        <div class="page page-title">
+            <h1>بلاگ ۳</h1>
+        </div>
+        <div class="page page-content">
+            <div class="page-item box1">
+                <div class="item1 item">
+                    <div class="thumbnail">
+                        <a href="" class="img-overflow">
+                            <img src="images/blog/img-1.jpg" alt="">
+                        </a>
+                    </div>
+                      <div>
+                        <h1>راه موفقیت</h1>
+                        <ul>
+                            <li> 
+                                <a href="">۱۳۹۸  ۲  اسفند </a>
+                            </li>
+                            <li>
+                                <a href="">کار</a>
+                            </li>
+                          </ul>
+                          <p>لورم ایپسوم متن ساختگی
+                            با تولید سادگی نامفهوم از صنعت چاپ و با استفاده 
+                           از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                       </p>
+                        </div>
+                </div>
+             
+            </div>
+            <div class="page-item box2">
+              <div class="item2 item">
+                      <div class="thumbnail">
+                       <a href="" class="img-overflow">
+                        <img src="images/blog/img-2.jpg" alt="">
+                       </a>
+                       <a class="btn-play" href="https://v3dboy.ir/previews/html/baha/video/video-iframe.html"> </a>
+                      </div>
+                      
+                                       
+                      <div>
+                        <h1>راه موفقیت</h1>
+                        <ul>
+                            <li> 
+                                <a href="">۱۳۹۸  ۲  اسفند </a>
+                            </li>
+                            <li>
+                                <a href="">کار</a>
+                            </li>
+                          </ul>
+                          <p>لورم ایپسوم متن ساختگی
+                            با تولید سادگی نامفهوم از صنعت چاپ و با استفاده 
+                           از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                       </p>
+                        </div>
+                </div>
+            </div>
+            <div class="page-item box3">
+                    <div class="item3 item">
+                        <div class="thumbnail">
+                            <a href="" class="img-overflow">
+                                <img src="images/blog/img-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div>
+                          <h1>راه موفقیت</h1>
+                          <ul>
+                            <li> 
+                                <a href="">۱۳۹۸  ۲  اسفند </a>
+                            </li>
+                            <li>
+                                <a href="">کار</a>
+                            </li>
+                          </ul>
+                          <p>لورم ایپسوم متن ساختگی
+                               با تولید سادگی نامفهوم از صنعت چاپ و با استفاده 
+                              از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                          </p>
+                          </div>
+                  </div>
+            </div>
+           <!--  -->
+           <div class="page-item box4">
+            <div class="item4 item">
+                <div class="thumbnail">
+                    <a href="" class="img-overflow">
+                        <img src="images/blog/img-4.jpg" alt="">
+                    </a>
+                </div>
+                  <div>
+                    <h1>راه موفقیت</h1>
+                    <ul>
+                        <li> 
+                            <a href="">۱۳۹۸  ۲  اسفند </a>
+                        </li>
+                        <li>
+                            <a href="">کار</a>
+                        </li>
+                      </ul>
+                      <p>لورم ایپسوم متن ساختگی
+                        با تولید سادگی نامفهوم از صنعت چاپ و با استفاده 
+                       از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+                   </p>
+                    </div>
+            </div>
+        </div>
+        <div class="page page-footer">
+            <h1>بلاگ ۱</h1>
+        </div>
+
+       </div>
+    </div>

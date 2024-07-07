@@ -1,0 +1,277 @@
+/* -----------------------------------------------
+				CSS Styles Dark
+--------------------------------------------------
+
+    Template Name: Behrooz - Sidebar Template
+
+--------------------------------------------------
+ 
+
+     /* CSS Base*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: none !important;
+    list-style: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+
+}
+
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+ 
+a {
+	color: #ccc;
+	-webkit-transition: all .3s ease-in-out;
+			transition: all .3s ease-in-out;
+} 
+a:hover,
+a:focus {
+	color: rgb(150, 216, 112) !important;
+}
+/* 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-weight: 700;
+	font-family: "secondary-font", "primary-font", "segoe ui", "tahoma";
+	line-height: 1.85;
+} */
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('fonts/eot/IRANSansWeb_Bold.eot');
+    src: url('fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('fonts/woff/IRANSansWeb_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/eot/IRANSansWeb.eot');
+    src: url('fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('fonts/woff2/IRANSansWeb.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('fonts/woff/IRANSansWeb.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+
+/* زمان استفاده از فونت فیس ها  باید جایی فراخوانی بشود با نامش */
+body{
+    background-color: #fff;
+    direction: ltr;
+    font-family: IRANSans;  /* منظوراین نام فونت در فونت فیس بالا یکسان باشد. */
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+.headline_wrapper .layer_img{
+    background-color: rgba(194, 112, 4, 0.432);
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 900px;
+    height: 100%;
+    z-index: 1000;
+}
+
+
+
+.headline_wrapper img{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+    transition: transform 2.8s ease-in-out;
+}
+.headline_wrapper img:hover{
+    background: transparent;
+    transform: scale(1.6);
+}
+.banner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.content{
+    position: absolute; 
+    width: 500px; 
+    height: 100px;
+}
+.content h1{
+    font-size: 5rem;
+    color: #fff;
+}
+.content p{
+    font-size: 25px;
+    color: #fff;
+}
+/* .sidebar.active-js{
+    background-color: red;
+   } */
+
+
+
+.logo-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    cursor: pointer;
+    height: 100%;
+    width: 150px;
+}
+
+
+.logo-container .toggle{
+    font-size: 5rem;    
+    color: rgb(145, 27, 27);
+    cursor: pointer;
+}
+
+
+.wraper-logo .logo{ 
+    display: flex; /* این باید همیشه باشه  */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     /* این برای اینکه بخوا اجزا رو عمودی وسط قرار بدی */
+    /* اگر بخواهی اجزا مرکز باشند باید در دربرگیرنده بزاری */
+    /* margin: 20% auto; */
+    /* margin: 20% auto; */
+}
+/* .wraper-logo .logo .sidebar{ 
+
+    display: inline;
+  
+    background-color: red;
+} */
+
+.logo li i{    
+    font-size: 25px;
+    color: rgb(64, 233, 13);
+    height: 4rem;
+    width: 4rem;  
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+.logo li:nth-child(1){
+
+    margin-bottom: 20px;
+}
+
+.logo-container.active {
+    background-color: black;
+    width: 800px;
+    height: 420px;
+    z-index: 1000;
+    opacity: 7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    /* margin-inline: auto; */
+}
+
+
+
+.logo-container.active .logo{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+  
+}   
+.logo-container.active .wraper-logo .logo li:nth-child(1){
+    visibility: hidden;
+}
+.logo-container.active .wraper-logo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.logo-container.active .wraper-logo .toggle{
+    /* margin-right: 20px;
+    margin-top: 15px; */
+
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+/* social */
+.social{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    
+    height: 300px;
+    width: 60px;
+    z-index: 1000;
+}
+
+.social ul li a i{
+    font-size: 20px;
+}
+.social ul li {
+    margin-bottom: 20px;
+}
+.social ul li a{
+
+    color: #fff;
+}
+.social ul li a i{
+    transition: 0.5s;
+}
+
+.social ul li a i:hover{
+    color: #CA781A;
+    transform: scale(1.4);
+}
+
+
+
+/* 
+@media only screen and (min-width: 700px) {
+    .logo-container{
+        background-color: rgb(198, 230, 59);
+        width: 800px;
+        height: 500px;
+       
+        margin: auto 100px;
+
+    }
+
+} */
